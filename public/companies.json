@@ -1,0 +1,183 @@
+{   "companies":[
+    {
+        "name": "Company_3329",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_3329",
+        "emails": "info@company_3329.com",
+        "phoneNumbers": "+1 415-555-1594",
+        "comments": "Leading tech company specializing in Company_3329.",
+        "communicationPeriodicity": "Weekly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-04-23T10:15:11Z",
+            "2024-04-30T10:15:11Z",
+            "2024-05-07T10:15:11Z",
+            "2024-05-14T10:15:11Z",
+            "2024-05-21T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-07T10:15:11Z"
+    },
+    {
+        "name": "Company_5855",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_5855",
+        "emails": "info@company_5855.com",
+        "phoneNumbers": "+1 415-555-4650",
+        "comments": "Leading tech company specializing in Company_5855.",
+        "communicationPeriodicity": "Monthly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-06-04T10:15:11Z",
+            "2024-07-02T10:15:11Z",
+            "2024-07-30T10:15:11Z",
+            "2024-08-27T10:15:11Z",
+            "2024-09-24T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-28T10:15:11Z"
+    },
+    {
+        "name": "Company_5164",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_5164",
+        "emails": "info@company_5164.com",
+        "phoneNumbers": "+1 415-555-3096",
+        "comments": "Leading tech company specializing in Company_5164.",
+        "communicationPeriodicity": "Weekly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-02-06T10:15:11Z",
+            "2024-02-13T10:15:11Z",
+            "2024-02-20T10:15:11Z",
+            "2024-02-27T10:15:11Z",
+            "2024-03-05T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-07T10:15:11Z"
+    },
+    {
+        "name": "Company_1424",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_1424",
+        "emails": "info@company_1424.com",
+        "phoneNumbers": "+1 415-555-2012",
+        "comments": "Leading tech company specializing in Company_1424.",
+        "communicationPeriodicity": "Weekly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-05-21T10:15:11Z",
+            "2024-05-28T10:15:11Z",
+            "2024-06-04T10:15:11Z",
+            "2024-06-11T10:15:11Z",
+            "2024-06-18T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-07T10:15:11Z"
+    },
+    {
+        "name": "Company_9330",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_9330",
+        "emails": "info@company_9330.com",
+        "phoneNumbers": "+1 415-555-9505",
+        "comments": "Leading tech company specializing in Company_9330.",
+        "communicationPeriodicity": "Quarterly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-12-03T10:15:11Z",
+            "2025-02-25T10:15:11Z",
+            "2025-05-20T10:15:11Z",
+            "2025-08-12T10:15:11Z",
+            "2025-11-04T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-03-25T10:15:11Z"
+    },
+    {
+        "name": "Company_9114",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_9114",
+        "emails": "info@company_9114.com",
+        "phoneNumbers": "+1 415-555-2904",
+        "comments": "Leading tech company specializing in Company_9114.",
+        "communicationPeriodicity": "Monthly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-12-17T10:15:11Z",
+            "2025-01-14T10:15:11Z",
+            "2025-02-11T10:15:11Z",
+            "2025-03-11T10:15:11Z",
+            "2025-04-08T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-28T10:15:11Z"
+    },
+    {
+        "name": "Company_9172",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_9172",
+        "emails": "info@company_9172.com",
+        "phoneNumbers": "+1 415-555-9215",
+        "comments": "Leading tech company specializing in Company_9172.",
+        "communicationPeriodicity": "Monthly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-10-29T10:15:11Z",
+            "2024-11-26T10:15:11Z",
+            "2024-12-24T10:15:11Z",
+            "2025-01-21T10:15:11Z",
+            "2025-02-18T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-28T10:15:11Z"
+    },
+    {
+        "name": "Company_1489",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_1489",
+        "emails": "info@company_1489.com",
+        "phoneNumbers": "+1 415-555-6479",
+        "comments": "Leading tech company specializing in Company_1489.",
+        "communicationPeriodicity": "Monthly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-12-10T10:15:11Z",
+            "2025-01-07T10:15:11Z",
+            "2025-02-04T10:15:11Z",
+            "2025-03-04T10:15:11Z",
+            "2025-04-01T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-28T10:15:11Z"
+    },
+    {
+        "name": "Company_4617",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_4617",
+        "emails": "info@company_4617.com",
+        "phoneNumbers": "+1 415-555-6802",
+        "comments": "Leading tech company specializing in Company_4617.",
+        "communicationPeriodicity": "Monthly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-12-03T10:15:11Z",
+            "2024-12-31T10:15:11Z",
+            "2025-01-28T10:15:11Z",
+            "2025-02-25T10:15:11Z",
+            "2025-03-25T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-28T10:15:11Z"
+    },
+    {
+        "name": "Company_9005",
+        "location": "San Francisco, CA",
+        "linkedIn": "https://www.linkedin.com/company/company_9005",
+        "emails": "info@company_9005.com",
+        "phoneNumbers": "+1 415-555-2599",
+        "comments": "Leading tech company specializing in Company_9005.",
+        "communicationPeriodicity": "Weekly",
+        "todayDate": "2024-12-31T10:15:11Z",
+        "pastCommunications": [
+            "2024-05-28T10:15:11Z",
+            "2024-06-04T10:15:11Z",
+            "2024-06-11T10:15:11Z",
+            "2024-06-18T10:15:11Z",
+            "2024-06-25T10:15:11Z"
+        ],
+        "nextScheduledCommunicationDate": "2025-01-07T10:15:11Z"
+    }
+]
+}

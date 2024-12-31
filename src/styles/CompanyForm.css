@@ -1,0 +1,84 @@
+/* Company Form Styles */
+
+/* Main container for the company form */
+.company-form-container {
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-form-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form field style */
+.company-form-field {
+  margin-bottom: 20px;
+}
+
+.company-form-field label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.company-form-field input,
+.company-form-field select,
+.company-form-field textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.company-form-field textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.company-form-field input:focus,
+.company-form-field select:focus,
+.company-form-field textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Date field styling */
+.company-form-field input[type="date"] {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+/* Submit Button Styles */
+.company-form-submit-btn {
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.company-form-submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Error message styles */
+.company-form-error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: 10px;
+}

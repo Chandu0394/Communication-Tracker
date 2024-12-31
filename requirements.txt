@@ -1,0 +1,10 @@
+react
+react-dom
+react-router-dom
+redux
+redux-thunk
+axios
+tailwindcss
+
+
+npm install

@@ -1,0 +1,109 @@
+/* General Page Styling */
+.admin-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #0c1a35, #162545); /* Dark matte background */
+    color: white;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Admin Login Box Styling */
+  .admin-page .login-form {
+    background: rgba(255, 255, 255, 0.1); /* Transparent form box */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5),
+                0 0 20px rgba(255, 255, 255, 0.1); /* Backlit effect */
+    padding: 30px; /* Reduced padding */
+    width: 500px; /* Decreased width */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .admin-page .login-form:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 40px rgba(0, 0, 0, 0.7),
+                0 0 30px rgba(255, 255, 255, 0.3); /* Hover elevation */
+  }
+  
+  /* Form Title */
+  .admin-page h2 {
+    font-size: 1.8rem; /* Slightly smaller title */
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Title effect */
+  }
+  
+  /* Label Styling */
+  .admin-page label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #dcdcdc;
+  }
+  
+  /* Input Fields Styling */
+  .admin-page input {
+    width: 100%;
+    padding: 8px; /* Slightly smaller padding */
+    margin-bottom: 15px; /* Reduced margin */
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    font-size: 1rem;
+    transition: border 0.3s ease, background 0.3s ease;
+  }
+  
+  .admin-page input:focus {
+    border: 2px solid #4a90e2;
+    background: rgba(255, 255, 255, 0.3); /* Focus styling */
+  }
+  
+  /* Submit Button Styling */
+  .admin-page button {
+    padding: 10px 20px;
+    font-size: 1rem; /* Slightly smaller button */
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #4a90e2, #6c63ff); /* Gradient button */
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .admin-page button:hover {
+    background: linear-gradient(145deg, #6c63ff, #4a90e2);
+    transform: scale(1.05); /* Hover pop effect */
+  }
+  
+  .admin-page button:active {
+    transform: scale(0.95);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3); /* Active click effect */
+  }
+  
+  /* Add styles for User Login button */
+  .admin-page .user-button {
+    bottom:0;
+    background: #f39c12; /* Similar to orange color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 20px;
+    width: 30%;
+  }
+  
+  .admin-page .user-button:hover {
+    background: #e67e22;
+  }
+  

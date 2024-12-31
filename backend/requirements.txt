@@ -1,0 +1,10 @@
+express
+mongoose
+bcryptjs
+jsonwebtoken
+dotenv
+cors
+body-parser
+
+
+npm install

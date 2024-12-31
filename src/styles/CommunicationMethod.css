@@ -1,0 +1,78 @@
+/* Communication Method Form Styles */
+
+/* Container for the communication method form */
+.communication-method-form-container {
+  width: 60%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.communication-method-form-container h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form field style */
+.communication-method-form-field {
+  margin-bottom: 20px;
+}
+
+.communication-method-form-field label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.communication-method-form-field input,
+.communication-method-form-field select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.communication-method-form-field input:focus,
+.communication-method-form-field select:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Sequence and mandatory flag checkbox styles */
+.communication-method-form-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.communication-method-form-checkbox input {
+  margin-right: 10px;
+}
+
+/* Submit Button Styles */
+.communication-method-form-submit-btn {
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.communication-method-form-submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Error message styles */
+.communication-method-form-error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: 10px;
+}

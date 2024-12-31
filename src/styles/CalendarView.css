@@ -1,0 +1,202 @@
+/* Overall container for the calendar view */
+.calendar-view {
+  font-family: 'Arial', sans-serif;
+  margin: 30px auto;
+  max-width: 1200px;
+  padding: 20px;
+  position: relative; /* Position relative to allow absolute positioning of the badge */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* Style for the calendar title */
+.calendar-view h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Circular badge for the calendar in the top right corner */
+.calendar-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #5cb85c;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the calendar badge (3D levitating effect) */
+.calendar-badge:hover {
+  transform: scale(1.2) translateY(-5px);
+}
+
+/* Calendar container initially hidden, will appear on clicking the badge */
+.rbc-calendar {
+  display: none;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px; /* Set the width of the calendar */
+  max-height: 500px; /* Max height to make it scrollable if needed */
+  z-index: 10;
+  animation: slideIn 0.5s ease-in-out;
+}
+
+/* Show the calendar when the badge is clicked */
+.calendar-view .show-calendar .rbc-calendar {
+  display: block;
+}
+
+/* Animation for the calendar when it slides in */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Calendar header (Day/Week view) */
+.rbc-header {
+  font-size: 1rem;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+/* Hover effect for calendar header */
+.rbc-header:hover {
+  background-color: #e0e0e0;
+}
+
+/* Style for each day cell */
+.rbc-day {
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover effect for individual dates */
+.rbc-day:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+/* Tooltip for event notes */
+.rbc-day-content {
+  position: relative;
+}
+
+/* Tooltip for event notes */
+.rbc-day-content:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  z-index: 20;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
+
+/* Tooltip fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Smooth transition for events */
+.rbc-event {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+/* Hover effect for events */
+.rbc-event:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Adding background color for events */
+.rbc-event {
+  background-color: #5cb85c;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+}
+
+/* Modal footer buttons (primary, secondary, delete) */
+.modal-footer button {
+  padding: 8px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effects for buttons in modal footer */
+.modal-footer button:hover {
+  opacity: 0.8;
+}
+
+/* Delete event button in red */
+.modal-footer .btn-danger {
+  background-color: #d9534f;
+  border-color: #d43f00;
+}
+
+/* Hover effect for delete button */
+.modal-footer .btn-danger:hover {
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+/* Adding animations to the modal */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation when modal appears */
+.modal-dialog {
+  animation: slideUp 0.3s ease-out;
+}
