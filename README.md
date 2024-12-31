@@ -15,6 +15,11 @@
 - **Communication Logging**: Users can log communications, add notes, and set future communication reminders.
 - **Calendar View**: A calendar display for users to track past and upcoming communications.
 
+### Reporting & Analytics (Optional)
+- **Communication Frequency Reports**: Visualize communication frequency for each company or communication method.
+- **Engagement Metrics**: Analyze the effectiveness of communication strategies.
+- **Overdue Communication Trends**: Track overdue communications with time-based heatmaps.
+
 ## Admin and User Login Credentials
 
 To access the **Admin** and **User** sections of the application, use the following credentials:
@@ -31,17 +36,21 @@ To access the **Admin** and **User** sections of the application, use the follow
 
 ## Screenshots
 
-![AdminLogin Screenshot](/public/AdminDashboard.png)
-*The Dashboard showing recent communications and upcoming tasks.*
 
-![AdminDashboard Screenshot](/public/AdminLogin.png)
+![AdminLogin Screenshot](/public/AdminLogin.png)
+*The Login page designed for Admins.*
+
+![AdminDashboard Screenshot](/public/AdminDashboard.png)
 *The Dashboard showing recent communications and upcoming tasks.*
 
 ![UserLogin Screenshot](/public/UserLogin.png)
-*The Dashboard showing recent communications and upcoming tasks.*
+*The UserLogin Page specially designed for users.*
 
 ![UserDashboard Screenshot](/public/UserDashboard.png)
 *The Dashboard showing recent communications and upcoming tasks.*
+
+
+
 ## Tech Stack
 
 - **Frontend**: React.js, React Router, Redux (for state management), Tailwind CSS
@@ -62,25 +71,24 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/chandu0394/communication-tracker.git
+   git clone https://github.com/chandu0394/Communication-Tracker.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd communication-tracker
+   cd Calendar-App
    ```
 
 3. Install dependencies for both the backend and frontend:
 
    ```bash
    # Install backend dependencies
-   cd Communication-Tracker
    cd backend
    npm install
 
    # Install frontend dependencies
-   cd Communication-Tracker
+   cd Calendar-App
    npm install
    ```
 
@@ -88,20 +96,19 @@ Ensure you have the following installed:
    - Create a `.env` file in the **backend** directory and add the following:
 
    ```bash
-   MONGO_URI=mongodb://localhost:27017/CalendarApp
-   PORT=500
+   MONGO_URI=mongodb://localhost:27017/calendarApp
+   PORT= 5000
    ```
 
 5. Start the development server:
 
    ```bash
    # Start backend server
-   cd Communication-Tracker
    cd backend
    npm start
 
    # Start frontend server
-   cd Communication-Tracker
+   cd ../frontend
    npm start
    ```
 
@@ -125,6 +132,11 @@ As a User, you can:
 - **View Dashboard**: See an overview of your communications and upcoming tasks.
 - **Calendar View**: Visualize past and upcoming communications on a calendar.
 
+### Reporting & Analytics
+
+If the optional reporting module is enabled:
+- **View Reports**: Generate communication frequency reports and overdue communication trends.
+- **Analyze Effectiveness**: Use metrics to optimize communication strategies.
 
 ## Directory Structure
 
@@ -214,3 +226,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Ensure that production-ready login systems (e.g., JWT, OAuth) are configured for secure authentication in your final deployment.
 
 This README file now includes updated information, your GitHub username, backend setup, and the admin/user credentials. You can share this with anyone looking to run or contribute to your **Communication Tracker** application.
+
+[def]: /public/AdminLogin.png
