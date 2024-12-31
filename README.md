@@ -19,10 +19,6 @@ The app is live at: [My App](https://comtrackin.netlify.app)
 - **Communication Logging**: Users can log communications, add notes, and set future communication reminders.
 - **Calendar View**: A calendar display for users to track past and upcoming communications.
 
-### Reporting & Analytics (Optional)
-- **Communication Frequency Reports**: Visualize communication frequency for each company or communication method.
-- **Engagement Metrics**: Analyze the effectiveness of communication strategies.
-- **Overdue Communication Trends**: Track overdue communications with time-based heatmaps.
 
 ## Admin and User Login Credentials
 
