@@ -1,7 +1,7 @@
 # Communication Tracker 
 
 ## Live Application
-The app is live at: [My App](https://your-netlify-app.netlify.app)
+The app is live at: [My App](https://comtrackin.netlify.app)
 
 
 **Communication Tracker** is a full-stack web application built with React for the frontend and Node.js/Express for the backend. The application helps users track professional communications with other organizations, manage tasks, and visualize key metrics. With separate interfaces for Admins and Users, the app allows companies to manage communication records and monitor upcoming tasks efficiently.
@@ -136,11 +136,6 @@ As a User, you can:
 - **View Dashboard**: See an overview of your communications and upcoming tasks.
 - **Calendar View**: Visualize past and upcoming communications on a calendar.
 
-### Reporting & Analytics
-
-If the optional reporting module is enabled:
-- **View Reports**: Generate communication frequency reports and overdue communication trends.
-- **Analyze Effectiveness**: Use metrics to optimize communication strategies.
 
 ## Directory Structure
 
