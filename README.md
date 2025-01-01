@@ -37,7 +37,7 @@ To access the **Admin** and **User** sections of the application, use the follow
 ## Screenshots
 
 
-![AdminLogin Screenshot](/public/AdminPage.png)
+![AdminLogin Screenshot](/public/AdminLogin.png)
 *The Login page designed for Admins.*
 
 ![AdminDashboard Screenshot](/public/AdminDashboard.png)
